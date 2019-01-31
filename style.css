@@ -1,0 +1,10 @@
+body {
+  background-image: url("prism.png");
+}
+
+.title {
+  font-family: 'Major Mono Display', monospace;
+  color: white;
+  font-size: 4rem;
+  padding-top: 2rem;
+}
