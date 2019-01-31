@@ -5,6 +5,16 @@ body {
 .title {
   font-family: 'Major Mono Display', monospace;
   color: white;
-  font-size: 3.2rem;
+  font-size: 3em;
   padding-top: 2rem;
 }
+
+.podcast-link {
+  font-size: 2rem;
+  color: white;
+}
+
+.jumbotron {
+  height: 500px;
+}
+
