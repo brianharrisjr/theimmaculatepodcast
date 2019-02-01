@@ -1,11 +1,25 @@
+p {
+  color: white;
+}
+
+h5 {
+  font-weight: 400;
+}
+
+
 body {
   background-image: url("prism.png");
+  border-top: 2px solid red;
+  color: white;
+  font-family: 'Roboto', sans-serif;
 }
+
+
 
 .title {
   font-family: 'Major Mono Display', monospace;
   color: white;
-  font-size: 3em;
+  font-size: 8em;
   padding-top: 2rem;
 }
 
@@ -18,3 +32,17 @@ body {
   height: 500px;
 }
 
+img {
+  max-width: 40%;
+  max-height: 40%;
+  border: 2px solid white;
+}
+
+span {
+  font-size: 30px;
+}
+
+.footer {
+  background: rgba(0, 0, 0, 0.112);
+  border-bottom: 5px solid red;
+}
