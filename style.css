@@ -1,4 +1,9 @@
-
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  html {
+      font-size: 16px;;
+  }
+}
 
 p {
   color: white;
@@ -21,14 +26,34 @@ body {
 .title {
   font-family: 'Major Mono Display', monospace;
   color: white;
-  font-size: 8em;
   padding-top: 2rem;
 }
 
-/* Small devices (landscape phones, 576px and up) */
+/* Small devices (portrait phones, 576px and below) */
 @media (max-width: 576px) {
   .title {
-      font-size: 3rem;
+      font-size: 2.9rem;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .title {
+      font-size: 4rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .title {
+      font-size: 6rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .title {
+      font-size: 8rem;
   }
 }
 
@@ -41,14 +66,15 @@ body {
   height: 500px;
 }
 
+
 img {
-  max-width: 40%;
-  max-height: 40%;
-  border: 2px solid white;
+  max-width: 45%;
+  max-height: 45%;
+  border: 3px solid white;
 }
 
-span {
-  font-size: 30px;
+.bio {
+  text-align: justify;
 }
 
 .footer {
