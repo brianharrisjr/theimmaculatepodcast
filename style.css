@@ -1,7 +1,7 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
-  html {
-      font-size: 16px;;
+  h5 {
+      font-size: 17px;;
   }
 }
 
@@ -60,6 +60,20 @@ body {
 .podcast-link {
   font-size: 2rem;
   color: white;
+}
+
+.apple-color {
+  color: #D56DFB;
+}
+.spotify-color {
+  color: #1DB954;
+}
+
+.soundcloud-color{
+  color: #ff9940;
+}
+.twitter-color {
+  color: #38A1F3;
 }
 
 .jumbotron {
