@@ -1,3 +1,5 @@
+
+
 p {
   color: white;
 }
@@ -21,6 +23,13 @@ body {
   color: white;
   font-size: 8em;
   padding-top: 2rem;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .title {
+      font-size: 3rem;
+  }
 }
 
 .podcast-link {
