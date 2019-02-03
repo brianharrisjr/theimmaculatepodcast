@@ -100,15 +100,18 @@ body {
   }
 }
 
+.mdna-container {
+  background-color: white;
+}
 .mdna {
   max-width: 100%;
   max-height: 100%;
-  border-bottom: 5px solid #FCF0C4;
-  border-top: 5px solid #FCF0C4;
-  border-left: 5px solid #FCF0C4;
-  border-right: 5px solid #FCF0C4;
+
 }
 
+.social-container {
+  background-color: white;
+}
 .podcast-link {
   font-size: 2rem;
   color: white;
@@ -116,6 +119,11 @@ body {
 
 .apple-color {
   color: #D56DFB;
+}
+
+.spotify {
+  max-width: 100%;
+  max-height: 100%;
 }
 .spotify-color {
   color: #1DB954;
@@ -128,6 +136,9 @@ body {
   color: #38A1F3;
 }
 
+.podcast-container {
+  background-color: white;
+}
 .jumbotron {
   height: 500px;
 }
