@@ -137,7 +137,8 @@ body {
 
 .jumbotron {
   background-color:rgba(7, 4, 4, 0.05);
-  height: 500;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 
@@ -173,5 +174,4 @@ a:hover {
 
 .footer {
   background: rgba(0, 0, 0, 0.783);
-  border-bottom: 20px solid #FCF0C4
 }
