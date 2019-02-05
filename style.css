@@ -117,14 +117,15 @@ body {
 .mdna {
   max-width: 100%;
   max-height: 100%;
+}
 
-}
 .podcast-buttons {
-  max-width: 100%;
+ max-width: 100%;
   max-height: 100%;
-  padding-top: 10%;
-  padding-left: 10%;
 }
+
+
+
 
 .podcast-container {
   background-color: white;
