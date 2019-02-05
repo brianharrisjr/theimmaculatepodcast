@@ -38,8 +38,6 @@ body {
   text-transform: uppercase;
   font-size: 10rem;
   padding-bottom: 50px;
-  
-
 }
 
 /* Small devices (portrait phones, 576px and below) */
@@ -48,14 +46,17 @@ body {
     text-shadow: -1px 1px .1px #683D25;
   }
   .title-small {
-      font-size: 2.5rem;
+      font-size: .95em;
   }
 
   #immaculate {
-    font-size: 3.5rem;
+    font-size: 1.4em;
   }
 }
 
+.sub-title {
+  font-size: 1em;
+}
 
 
 /* Small devices (landscape phones, 576px and up) */
@@ -64,12 +65,16 @@ body {
     text-shadow: -1px 2px  #683D25;
   }
   .title-small {
-      font-size: 2.5rem;
+      font-size: 1.2em;
   }
 
   #immaculate {
-    font-size: 3.rem;
+    font-size: 2.1em;
   }
+}
+
+.sub-title {
+  font-size: 1.15em;
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -82,7 +87,7 @@ body {
   }
 
   #immaculate {
-    font-size: 7rem;
+    font-size: 3em;
   }
 }
 
@@ -98,7 +103,13 @@ body {
   #immaculate {
     font-size: 10rem;
   }
+
+  .sub-title {
+    font-size: 1.5em;
+  }
 }
+
+
 
 .social-link {
   font-size: 1.5em;
