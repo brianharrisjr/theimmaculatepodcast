@@ -15,8 +15,8 @@ h5 {
 
 
 body {
-  background-color: #AECBE6;
   border-top: 20px solid #FCF0C4;
+  background-color: #AECBE6;
   color: rgb(79, 46, 28);
   font-family: 'Hind', sans-serif;
 }
@@ -52,10 +52,9 @@ body {
   #immaculate {
     font-size: 1.35em;
   }
-}
-
-.sub-title {
-  font-size: 1em;
+  .sub-title {
+    font-size: .9em;
+  }
 }
 
 
@@ -71,10 +70,6 @@ body {
   #immaculate {
     font-size: 2.1em;
   }
-}
-
-.sub-title {
-  font-size: 1.15em;
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -112,9 +107,11 @@ body {
 
 .social-link {
   font-size: 1.5em;
+  color: #444;
 }
 
 .mdna-container {
+  color: #444;
   background-color: white;
 }
 .mdna {
@@ -148,12 +145,17 @@ img {
   border: 3px solid white;
 }
 
+
 .host-name {
   color: rgba(0, 0, 0, 0.783);
 }
 
 .bio {
+  color: #444;
   text-align: justify;
+  font-size: 1.15em;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 .footer-social-link {
@@ -161,17 +163,10 @@ img {
   color: white;
 }
 
-a {
+.made-by-bh {
   text-decoration: underline;
-  text-decoration-color: rgba(250, 247, 247, 0.694);
-
+  text-decoration-color: #888;
 }
-
-a:hover {
-  color: #FCF0C4;
-}
-
-
 .footer {
   background: rgba(0, 0, 0, 0.783);
 }
