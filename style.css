@@ -53,7 +53,7 @@ body {
     font-size: 1.35em;
   }
   .sub-title {
-    font-size: 1.15em;
+    font-size: 1.05em;
   }
 }
 
@@ -68,7 +68,7 @@ body {
   }
 
   #immaculate {
-    font-size: 2.1em;
+    font-size: 2em;
   }
 }
 
@@ -82,7 +82,7 @@ body {
   }
 
   #immaculate {
-    font-size: 3em;
+    font-size: 2.7em;
   }
 }
 
@@ -110,22 +110,70 @@ body {
   color: #444;
 }
 
+.big-podcast-container {
+  background-color: white;
+}
+
 .mdna-container {
   color: #444;
   background-color: white;
 }
+
+
 .mdna {
   max-width: 100%;
   max-height: 100%;
 }
 
 .podcast-buttons {
- max-width: 100%;
-  max-height: 100%;
+  max-width: 65%;
+  max-height: 65%
 }
 
+/* Small devices (portrait phones, 576px and below) */
+@media (max-width: 576px) {
+  .podcast-buttons {
+    max-width: 110%;
+    max-height: 110%;
+  }
+  .logo-container {
+    padding-top: 25%;
+  }
+}
 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .podcast-buttons {
+    max-width: 90%;
+    max-height: 90%;
+  }
+  .logo-container {
+    padding-top: 25%;
+  }
+}
 
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .podcast-buttons {
+    max-width: 85%;
+    max-height: 85%;
+  }
+  .logo-container {
+    padding-top: 25%;
+  }
+  
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .podcast-buttons {
+    max-width: 70%;
+    max-height: 70%;
+  }
+  .logo-container {
+    padding-top: 25%;
+  }
+}
 
 .podcast-container {
   background-color: white;
