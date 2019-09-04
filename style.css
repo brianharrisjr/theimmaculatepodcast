@@ -133,14 +133,39 @@ body {
   max-height: 65%
 }
 
+.podcast-links {
+  color: #444;
+  font-size: 1.2em;
+}
+
+.merch-link {
+  color: #444;
+  font-size: 1.2em;
+}
+
+.merch-link:hover{
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.podcast-links:hover {
+  text-decoration: underline;
+  text-decoration-color: #c4302b;
+}
+
 /* Small devices (portrait phones, 576px and below) */
 @media (max-width: 576px) {
   .podcast-buttons {
-    max-width: 110%;
-    max-height: 110%;
+    max-width: 85%;
+    max-height: 85%;
+  }
+
+  .podcast-links {
+    color: #444;
+    font-size: 1.7em;
   }
   .logo-container {
-    padding-top: 10%;
+    padding-top: 5%;
   }
 }
 
